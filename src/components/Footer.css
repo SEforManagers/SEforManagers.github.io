@@ -1,0 +1,36 @@
+.footer {
+}
+
+.footer-row {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.footer-column {
+  float: left;
+  width: calc((100% - 30px) / 3);
+  white-space: pre-line;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-column-last {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-row {
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .footer-column {
+    width: calc(100% - 70px);
+  }
+}
+
+a {
+  color: inherit;
+}

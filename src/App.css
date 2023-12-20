@@ -1,0 +1,11 @@
+.App-content {
+  text-align: left;
+  width: 75%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .App-content {
+    width: 100%;
+  }
+}
