@@ -15,7 +15,7 @@ function Home() {
             <div className={"home-boxes"}>
                 <div className={"home-box"}>
                     <div className={"home-box-icon"}>
-                        <img src={graduation} />
+                        <img src={graduation} alt={"Graduation"} />
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Teaching</h2>
@@ -24,7 +24,7 @@ function Home() {
                 </div>
                 <div className={"home-box"}>
                     <div className={"home-box-icon"}>
-                        <img src={rocket} />
+                        <img src={rocket} alt={"Rocket"} />
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Improvement</h2>
@@ -33,21 +33,16 @@ function Home() {
                 </div>
                 <div className={"home-box"}>
                     <div className={"home-box-icon"}>
-                        <img src={handshake} />
+                        <img src={handshake} alt={"Handshake"} />
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Guidance</h2>
                         Our personalized mentorship provides ongoing support, guiding managers in navigating the realm of technology. This mentorship strengthens their confidence in implementing technical solutions.
                     </div>
                 </div>
-            {/*</div>*/}
-
-            {/*<h2 className={"home-heading"}>{"             "}</h2>*/}
-
-            {/*<div className={"home-boxes"}>*/}
                 <div className={"home-box"}>
                     <div className={"home-box-icon"}>
-                        <img src={gears} />
+                        <img src={gears} alt={"Gears"} />
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Problem Solving</h2>
@@ -56,7 +51,7 @@ function Home() {
                 </div>
                 <div className={"home-box"}>
                     <div className={"home-box-icon"}>
-                        <img src={speechBubble} />
+                        <img src={speechBubble} alt={"Speech Bubble"} />
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Explanation</h2>
@@ -65,7 +60,7 @@ function Home() {
                 </div>
                 <div className={"home-box"}>
                     <div className={"home-box-icon"}>
-                        <img src={puzzle} />
+                        <img src={puzzle} alt={"Puzzle"} />
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Efficient Integration</h2>
