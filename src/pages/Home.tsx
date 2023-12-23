@@ -28,7 +28,7 @@ function Home() {
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Improvement</h2>
-                        We foster continuous enhancement of managerial skills in technology adoption. Through interactive activities, we refine their approach to handle technical aspects, ensuring seamless integration into their leadership roles.
+                        We foster continuous enhancement of managerial skills in technology adoption. Through interactive activities, we refine their approach to handling technical aspects, ensuring seamless integration into their leadership roles.
                     </div>
                 </div>
                 <div className={"home-box"}>
@@ -37,7 +37,7 @@ function Home() {
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Guidance</h2>
-                        Our personalized mentorship provides ongoing support, guiding managers in navigating the realm of technology. This mentorship strengthens their confidence in implementing technical solutions.
+                        Our personalized mentorship provides ongoing support, guiding managers through the realm of technology. This mentorship strengthens their confidence in implementing technical solutions.
                     </div>
                 </div>
                 <div className={"home-box"}>
@@ -55,7 +55,7 @@ function Home() {
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Explanation</h2>
-                        Representing our commitment to effective communication, this icon symbolizes our efforts in streamlining technical information flow. We facilitate clearer communication channels between managers and tech teams.
+                        Representing our commitment to effective communication, this symbolizes our efforts to streamline technical information flow. We facilitate clearer communication channels between managers and tech teams.
                     </div>
                 </div>
                 <div className={"home-box"}>
@@ -64,7 +64,7 @@ function Home() {
                     </div>
                     <div className={"home-box-text"}>
                         <h2>Efficient Integration</h2>
-                        Highlighting our aim for seamless integration, this icon signifies our support in merging technical insights into managerial practices. We facilitate a harmonious synergy between technology and leadership realms.
+                        Highlighting our aim for seamless integration, this signifies our support in merging technical insights into managerial practices. We facilitate a harmonious synergy between technology and leadership.
                     </div>
                 </div>
             </div>
