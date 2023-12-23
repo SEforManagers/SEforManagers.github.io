@@ -70,7 +70,7 @@ function Home() {
             </div>
 
             <hr />
-            <p>If you are interested in a partnership with the goal to develop an prototype of our workshop for your needs, please do not hesitate to contact us.</p>
+            <p>If you are interested in a partnership to develop a prototype of our workshop for your needs, please do not hesitate to contact us.</p>
         </div>
     );
 }
