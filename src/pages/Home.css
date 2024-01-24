@@ -21,7 +21,7 @@
 }
 
 .home-box-icon img {
-    width: calc((100% - 42px) / 3);
+    height: 120px;
     display: block;
     margin: auto;
 }
