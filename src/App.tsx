@@ -3,21 +3,37 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Footer, Header } from "./components/components";
 import Home from "./pages/Home";
+import Legal from "./pages/Legal";
 
 function App() {
   return (
       <div className="App">
-        <Header />
-        <div className={"App-content"}>
           <Routes>
             <Route path="/" element={
-                <Home />
+                <>
+                    <Header isHome />
+                    <div className={"App-content"}>
+                    <Home />
+                    </div>
+                </>
+            } />
+            <Route path="/legal" element={
+                <>
+                    <Header />
+                    <div className={"App-content"}>
+                    <Legal />
+                    </div>
+                </>
             } />
             <Route path="*" element={
-                <p>Not found</p>
+                <>
+                    <Header />
+                    <div className={"App-content"}>
+                        <h2>404 - Not Found</h2>
+                    </div>
+                </>
             } />
           </Routes>
-        </div>
         <Footer />
       </div>
   );
